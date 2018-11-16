@@ -8,9 +8,9 @@ const API_KEY = 'AIzaSyCjpBuUe7SXUr2b8Lowen_7va9x5M66sE4';
 
 // create/declare a new component and produce some html
 
-const App = function () {
+class App extends Component{
     return (
-    <div > 
+    <div> 
       <SearchBar/>
    </div>
     );

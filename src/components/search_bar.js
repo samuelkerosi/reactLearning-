@@ -1,6 +1,4 @@
-import React, {
-    Component
-} from 'react';
+import React, { Component} from 'react';
 
 //defining search bar normally (functional)
 // const SearchBar = ()=> {
@@ -34,10 +32,7 @@ class SearchBar extends Component {
          
         }
     }
-    // //when the user interacts with the search bar ....event handler 
-    // onInputChange(event) {
-    //     console.log(event.target.value);
-    // }
+    
 
 
 
