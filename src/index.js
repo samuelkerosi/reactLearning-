@@ -12,10 +12,10 @@ class App extends Component{
     render(){
     return (
     <div> 
-      <SearchBar/>
+      {this.state.SearchBar}
    </div>
     );
     };
 }
 // step 2: render the application
-ReactDOM.render( < App / > , document.querySelector('.container'));
+ReactDOM.render( < App/ > , document.querySelector('.container'));

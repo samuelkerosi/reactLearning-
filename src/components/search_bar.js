@@ -21,19 +21,16 @@ class SearchBar extends Component {
     render() {
         //.... and also listening to the changes in the input 
         return (
-        <div>
-        <input 
-        //makes input a controlled component 
-        //this.state --> makes the function re-render 
-        value = {this.state.term}
-        onChange = {event =>this.setState({term: event.target.value})}/>
-        </div>
+            <div>
+                <input 
+                //makes input a controlled component 
+                //this.state --> makes the function re-render 
+                value = {this.state.term}
+                onChange = {event =>this.setState({term: event.target.value})}/>
+             </div>
          );
          
         }
     }
     
-
-
-
 export default SearchBar;
